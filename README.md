@@ -21,23 +21,73 @@
 <br/>
 ---
  
-## ⚙️ About Me
- 
-```yaml
-Name       : Farhat Abbas
-Role       : Mechanical Engineering Undergrad (Batch 2025)
-University : University of Engineering & Technology, Lahore — Section A
-Roll No    : 2025-ME-33
-Position   : Class Super Admin — ME Section A Portal
-Society    : Science Society @ UET Lahore | Team Documentation
-Languages  : English · Urdu · Punjabi · Saraiki · (Arabic & Persian - readable)
-Interests  : Technical Design · Software Builds · Professional Documentation
-Currently  : Building engineering tools · Writing technical docs · Learning more
-```
- 
-<br/>
+<div align="center">
+
+
+
+<div align="center">
+
+# Farhat Abbas
+
+### Mechanical Engineering · UET Lahore · Batch 2025
+
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=378ADD&center=true&vCenter=true&width=435&lines=Building+engineering+tools...;Writing+technical+docs...;Class+Super+Admin+%40+ME-A;Science+Society+%C2%B7+Documentation" alt="Typing SVG" />
+
+</div>
+
 ---
- 
+
+## About Me
+
+| | |
+|:---|:---|
+| **University** | University of Engineering & Technology, Lahore |
+| **Department** | Mechanical Engineering — Section A |
+| **Position** | Class Super Admin — ME Section A Portal |
+| **Society** | Science Society @ UET Lahore · Team Documentation |
+
+---
+
+## Languages
+
+`English` · `Urdu` · `Punjabi` · `Saraiki` · `Arabic (readable)` · `Persian (readable)`
+
+---
+
+## Interests
+
+| 🔩 Technical Design | 💻 Software Builds | 📄 Professional Documentation |
+|:---:|:---:|:---:|
+| ![](https://geps.dev/progress/88?dangerColor=185FA5&warningColor=185FA5&successColor=185FA5) | ![](https://geps.dev/progress/80?dangerColor=1D9E75&warningColor=1D9E75&successColor=1D9E75) | ![](https://geps.dev/progress/92?dangerColor=534AB7&warningColor=534AB7&successColor=534AB7) |
+
+---
+
+## Currently
+
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=800&color=1D9E75&width=500&lines=%F0%9F%9F%A2+Building+engineering+tools;%F0%9F%9F%A2+Writing+technical+docs;%F0%9F%9F%A2+Always+learning+more" alt="Status" />
+
+---
+
+<div align="center">
+<sub>Farhat Abbas · UET Lahore · ME 2025</sub>
+</div>
+
+## Interests
+
+🔩 **Technical Design** · 💻 **Software Builds** · 📄 **Professional Documentation**
+
+---
+
+## Currently
+
+> 🟢 Building engineering tools · Writing technical docs · Always learning more
+
+---
+
+<div align="center">
+<sub>Profile by Farhat Abbas · UET Lahore ME 2025</sub>
+</div>
+
 ## 🛠️ Tech Stack & Tools
  
 <div align="center">
