@@ -1,0 +1,153 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 160" width="900" height="160">
+  <defs>
+    <style>
+      @keyframes drift1 { 0%,100%{transform:translate(0,0);} 40%{transform:translate(18px,-12px);} 80%{transform:translate(-10px,15px);} }
+      @keyframes drift2 { 0%,100%{transform:translate(0,0);} 50%{transform:translate(-16px,14px);} }
+      @keyframes drift3 { 0%,100%{transform:translate(0,0);} 30%{transform:translate(12px,-16px);} 70%{transform:translate(-14px,8px);} }
+      @keyframes drift4 { 0%,100%{transform:translate(0,0);} 60%{transform:translate(20px,10px);} }
+      @keyframes drift5 { 0%,100%{transform:translate(0,0);} 45%{transform:translate(-18px,-12px);} }
+      @keyframes rotate-slow { from{transform:rotate(0deg);} to{transform:rotate(360deg);} }
+      @keyframes rotate-rev  { from{transform:rotate(0deg);} to{transform:rotate(-360deg);} }
+      @keyframes glowPulse { 0%,100%{opacity:0.6; r:3;} 50%{opacity:1; r:5;} }
+      @keyframes fadeUp { from{opacity:0;transform:translateY(10px);} to{opacity:1;transform:translateY(0);} }
+      @keyframes lineAlpha { 0%,100%{opacity:0.08;} 50%{opacity:0.28;} }
+      .nd1{animation:drift1 8s ease-in-out infinite; transform-origin:inherit;}
+      .nd2{animation:drift2 10s ease-in-out infinite; transform-origin:inherit;}
+      .nd3{animation:drift3 7s ease-in-out infinite 1s; transform-origin:inherit;}
+      .nd4{animation:drift4 11s ease-in-out infinite 2s; transform-origin:inherit;}
+      .nd5{animation:drift5 9s ease-in-out infinite 0.5s; transform-origin:inherit;}
+      .cn1{animation:fadeUp 0.8s ease-out 0.2s both;}
+      .cn2{animation:fadeUp 0.8s ease-out 0.5s both;}
+      .cn3{animation:fadeUp 0.8s ease-out 0.8s both;}
+    </style>
+    <linearGradient id="bg6" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#070608"/>
+      <stop offset="100%" stop-color="#0A0907"/>
+    </linearGradient>
+    <radialGradient id="rg12" cx="50%" cy="50%" r="60%">
+      <stop offset="0%" stop-color="#B84021" stop-opacity="0.14"/>
+      <stop offset="100%" stop-color="#070608" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="bc"><feGaussianBlur stdDeviation="2"/></filter>
+    <filter id="bc2"><feGaussianBlur stdDeviation="5"/></filter>
+    <clipPath id="clip6"><rect width="900" height="160"/></clipPath>
+  </defs>
+
+  <g clip-path="url(#clip6)">
+    <rect width="900" height="160" fill="url(#bg6)"/>
+    <rect width="900" height="160" fill="url(#rg12)"/>
+
+    <!-- ── PARTICLE NETWORK ── -->
+    <!-- Nodes (will drift) -->
+    <!-- Node A (120,40) -->
+    <g class="nd1" style="transform-origin:120px 40px;">
+      <circle cx="120" cy="40" r="3.5" fill="#D4903A" style="animation:glowPulse 3s ease-in-out infinite;" filter="url(#bc)"/>
+      <circle cx="120" cy="40" r="1.5" fill="#EDE3CF"/>
+    </g>
+    <!-- Node B (280,110) -->
+    <g class="nd2" style="transform-origin:280px 110px;">
+      <circle cx="280" cy="110" r="3" fill="#B84021" style="animation:glowPulse 2.8s ease-in-out infinite 0.4s;" filter="url(#bc)"/>
+      <circle cx="280" cy="110" r="1.2" fill="#EDE3CF"/>
+    </g>
+    <!-- Node C (450,35) -->
+    <g class="nd3" style="transform-origin:450px 35px;">
+      <circle cx="450" cy="35" r="4" fill="#2BBFB0" style="animation:glowPulse 3.5s ease-in-out infinite 0.8s;" filter="url(#bc)"/>
+      <circle cx="450" cy="35" r="1.8" fill="#EDE3CF"/>
+    </g>
+    <!-- Node D (620,120) -->
+    <g class="nd4" style="transform-origin:620px 120px;">
+      <circle cx="620" cy="120" r="3.5" fill="#D4903A" style="animation:glowPulse 2.5s ease-in-out infinite 1.2s;" filter="url(#bc)"/>
+      <circle cx="620" cy="120" r="1.5" fill="#EDE3CF"/>
+    </g>
+    <!-- Node E (800,45) -->
+    <g class="nd5" style="transform-origin:800px 45px;">
+      <circle cx="800" cy="45" r="3" fill="#B84021" style="animation:glowPulse 3.2s ease-in-out infinite 0.6s;" filter="url(#bc)"/>
+      <circle cx="800" cy="45" r="1.2" fill="#EDE3CF"/>
+    </g>
+    <!-- Extra nodes -->
+    <g class="nd2" style="transform-origin:60px 120px;">
+      <circle cx="60" cy="120" r="2.5" fill="#2BBFB0" filter="url(#bc)"/>
+    </g>
+    <g class="nd1" style="transform-origin:850px 130px;">
+      <circle cx="850" cy="130" r="2.5" fill="#D4903A" filter="url(#bc)"/>
+    </g>
+    <g class="nd3" style="transform-origin:340px 30px;">
+      <circle cx="340" cy="30" r="2" fill="#B84021" filter="url(#bc)"/>
+    </g>
+    <g class="nd4" style="transform-origin:560px 145px;">
+      <circle cx="560" cy="145" r="2.5" fill="#2BBFB0" filter="url(#bc)"/>
+    </g>
+
+    <!-- Network edges (static backdrop, nodes will shift slightly) -->
+    <line x1="120" y1="40" x2="280" y2="110" stroke="#D4903A" stroke-width="0.5" opacity="0.22" style="animation:lineAlpha 4s ease-in-out infinite;"/>
+    <line x1="120" y1="40" x2="450" y2="35"  stroke="#2BBFB0" stroke-width="0.5" opacity="0.2"  style="animation:lineAlpha 5s ease-in-out infinite 1s;"/>
+    <line x1="280" y1="110" x2="450" y2="35" stroke="#B84021" stroke-width="0.5" opacity="0.18" style="animation:lineAlpha 3.5s ease-in-out infinite 0.5s;"/>
+    <line x1="450" y1="35"  x2="620" y2="120" stroke="#D4903A" stroke-width="0.5" opacity="0.22" style="animation:lineAlpha 4.5s ease-in-out infinite 1.5s;"/>
+    <line x1="450" y1="35"  x2="800" y2="45"  stroke="#2BBFB0" stroke-width="0.5" opacity="0.2"  style="animation:lineAlpha 6s ease-in-out infinite 0.8s;"/>
+    <line x1="620" y1="120" x2="800" y2="45"  stroke="#B84021" stroke-width="0.5" opacity="0.18" style="animation:lineAlpha 3.8s ease-in-out infinite 2s;"/>
+    <line x1="60"  y1="120" x2="280" y2="110" stroke="#B84021" stroke-width="0.4" opacity="0.15" style="animation:lineAlpha 5s ease-in-out infinite;"/>
+    <line x1="800" y1="45"  x2="850" y2="130" stroke="#D4903A" stroke-width="0.4" opacity="0.15" style="animation:lineAlpha 4s ease-in-out infinite 0.3s;"/>
+    <line x1="340" y1="30"  x2="450" y2="35"  stroke="#2BBFB0" stroke-width="0.4" opacity="0.15" style="animation:lineAlpha 5.5s ease-in-out infinite 1.2s;"/>
+    <line x1="560" y1="145" x2="620" y2="120" stroke="#B84021" stroke-width="0.4" opacity="0.15" style="animation:lineAlpha 4.2s ease-in-out infinite 0.7s;"/>
+
+    <!-- Rotating corner rings -->
+    <g transform="translate(30,80)">
+      <g style="transform-origin:0 0; animation:rotate-slow 20s linear infinite;">
+        <polygon points="0,-25 22,-12 22,12 0,25 -22,12 -22,-12" fill="none" stroke="#B84021" stroke-width="0.8" opacity="0.3"/>
+      </g>
+    </g>
+    <g transform="translate(870,80)">
+      <g style="transform-origin:0 0; animation:rotate-rev 16s linear infinite;">
+        <polygon points="0,-25 22,-12 22,12 0,25 -22,12 -22,-12" fill="none" stroke="#2BBFB0" stroke-width="0.8" opacity="0.28"/>
+      </g>
+    </g>
+
+    <!-- Border -->
+    <line x1="0" y1="1"   x2="900" y2="1"   stroke="#B84021" stroke-width="1" opacity="0.55"/>
+    <line x1="0" y1="159" x2="900" y2="159" stroke="#D4903A" stroke-width="0.6" opacity="0.4"/>
+
+    <!-- Content -->
+    <text x="450" y="26" text-anchor="middle" font-family="'Courier New', monospace" font-size="11"
+          fill="#2BBFB0" letter-spacing="6" class="cn1">🌐  CONNECT WITH ME  🌐</text>
+
+    <!-- Separator -->
+    <g class="cn2">
+      <line x1="200" y1="38" x2="360" y2="38" stroke="#B84021" stroke-width="0.6" opacity="0.5"/>
+      <circle cx="450" cy="38" r="2.5" fill="#D4903A"/>
+      <line x1="540" y1="38" x2="700" y2="38" stroke="#2BBFB0" stroke-width="0.6" opacity="0.5"/>
+    </g>
+
+    <!-- Contact badges -->
+    <g class="cn3">
+      <!-- LinkedIn -->
+      <rect x="175" y="52" width="165" height="46" rx="6" fill="#0A66C2" opacity="0.18"/>
+      <rect x="175" y="52" width="165" height="46" rx="6" fill="none" stroke="#0A66C2" stroke-width="0.8" opacity="0.6"/>
+      <text x="257" y="73" text-anchor="middle" font-family="'Courier New', monospace" font-size="11" fill="#EDE3CF" font-weight="bold">in  LinkedIn</text>
+      <text x="257" y="88" text-anchor="middle" font-family="'Courier New', monospace" font-size="9" fill="#8CA5B5">Farhat Abbas</text>
+
+      <!-- Email -->
+      <rect x="368" y="52" width="165" height="46" rx="6" fill="#B84021" opacity="0.18"/>
+      <rect x="368" y="52" width="165" height="46" rx="6" fill="none" stroke="#B84021" stroke-width="0.8" opacity="0.6"/>
+      <text x="450" y="73" text-anchor="middle" font-family="'Courier New', monospace" font-size="11" fill="#EDE3CF" font-weight="bold">✉  Email</text>
+      <text x="450" y="88" text-anchor="middle" font-family="'Courier New', monospace" font-size="9" fill="#8CA5B5">Contact Me</text>
+
+      <!-- UET -->
+      <rect x="561" y="52" width="165" height="46" rx="6" fill="#2BBFB0" opacity="0.13"/>
+      <rect x="561" y="52" width="165" height="46" rx="6" fill="none" stroke="#2BBFB0" stroke-width="0.8" opacity="0.5"/>
+      <text x="643" y="73" text-anchor="middle" font-family="'Courier New', monospace" font-size="11" fill="#EDE3CF" font-weight="bold">🏛  UET Lahore</text>
+      <text x="643" y="88" text-anchor="middle" font-family="'Courier New', monospace" font-size="9" fill="#8CA5B5">Batch 2025</text>
+    </g>
+
+    <!-- Bottom tagline -->
+    <text x="450" y="120" text-anchor="middle" font-family="'Courier New', monospace" font-size="10"
+          fill="#5C6E7A" letter-spacing="2" class="cn3">── always open to collaboration ──</text>
+
+    <!-- Status indicator -->
+    <g class="cn3">
+      <circle cx="450" cy="140" r="4" fill="#1D9E75" opacity="0.9">
+        <animate attributeName="opacity" values="0.9;0.3;0.9" dur="1.8s" repeatCount="indefinite"/>
+      </circle>
+      <text x="462" y="144" font-family="'Courier New', monospace" font-size="9" fill="#1D9E75">Available for opportunities</text>
+    </g>
+  </g>
+</svg>

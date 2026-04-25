@@ -1,0 +1,302 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 300" width="900" height="300">
+  <defs>
+    <style>
+      @keyframes drift1 {
+        0%   { transform: translate(0,0) scale(1); opacity:0.7; }
+        33%  { transform: translate(18px,-22px) scale(1.15); opacity:1; }
+        66%  { transform: translate(-12px,14px) scale(0.9); opacity:0.6; }
+        100% { transform: translate(0,0) scale(1); opacity:0.7; }
+      }
+      @keyframes drift2 {
+        0%   { transform: translate(0,0) scale(1); opacity:0.5; }
+        50%  { transform: translate(-20px,25px) scale(1.2); opacity:0.9; }
+        100% { transform: translate(0,0) scale(1); opacity:0.5; }
+      }
+      @keyframes drift3 {
+        0%   { transform: translate(0,0); opacity:0.4; }
+        40%  { transform: translate(25px,-10px); opacity:0.8; }
+        80%  { transform: translate(-8px,20px); opacity:0.3; }
+        100% { transform: translate(0,0); opacity:0.4; }
+      }
+      @keyframes float {
+        0%,100% { transform: translateY(0px); }
+        50%     { transform: translateY(-8px); }
+      }
+      @keyframes pulse-ring {
+        0%   { r: 4; opacity: 0.9; }
+        100% { r: 18; opacity: 0; }
+      }
+      @keyframes rotate-slow {
+        from { transform: rotate(0deg); }
+        to   { transform: rotate(360deg); }
+      }
+      @keyframes rotate-rev {
+        from { transform: rotate(0deg); }
+        to   { transform: rotate(-360deg); }
+      }
+      @keyframes fadeInUp {
+        from { opacity:0; transform:translateY(20px); }
+        to   { opacity:1; transform:translateY(0); }
+      }
+      @keyframes shimmer {
+        0%,100% { opacity: 0.6; }
+        50%     { opacity: 1; }
+      }
+      @keyframes scanline {
+        0%   { transform: translateY(-300px); }
+        100% { transform: translateY(300px); }
+      }
+      @keyframes particle-rise {
+        0%   { transform: translateY(0) translateX(0); opacity: 0; }
+        10%  { opacity: 0.8; }
+        90%  { opacity: 0.4; }
+        100% { transform: translateY(-260px) translateX(var(--dx,10px)); opacity: 0; }
+      }
+      @keyframes hexSpin {
+        from { transform: rotate(0deg) scale(1); }
+        50%  { transform: rotate(180deg) scale(1.05); }
+        to   { transform: rotate(360deg) scale(1); }
+      }
+      @keyframes glowPulse {
+        0%,100% { filter: drop-shadow(0 0 6px #B84021aa); }
+        50%     { filter: drop-shadow(0 0 18px #D4903Aff); }
+      }
+      @keyframes lineFlash {
+        0%,100% { opacity:0.15; }
+        50%     { opacity:0.55; }
+      }
+      .p1 { animation: drift1 7s ease-in-out infinite; }
+      .p2 { animation: drift2 9s ease-in-out infinite; }
+      .p3 { animation: drift3 11s ease-in-out infinite; }
+      .p4 { animation: drift1 6s ease-in-out infinite reverse; }
+      .p5 { animation: drift2 8s ease-in-out infinite 2s; }
+      .p6 { animation: drift3 10s ease-in-out infinite 1s; }
+      .p7 { animation: drift1 13s ease-in-out infinite 3s; }
+      .p8 { animation: drift2 5.5s ease-in-out infinite 0.5s; }
+      .title-text { animation: fadeInUp 1.2s ease-out 0.3s both; }
+      .sub-text   { animation: fadeInUp 1.2s ease-out 0.8s both; }
+      .desc-text  { animation: fadeInUp 1.2s ease-out 1.2s both; }
+    </style>
+
+    <!-- Radial glow at center -->
+    <radialGradient id="centerGlow" cx="50%" cy="50%" r="55%">
+      <stop offset="0%"   stop-color="#B84021" stop-opacity="0.22"/>
+      <stop offset="40%"  stop-color="#3B1406" stop-opacity="0.18"/>
+      <stop offset="100%" stop-color="#0C0A08" stop-opacity="0"/>
+    </radialGradient>
+
+    <!-- Teal accent glow -->
+    <radialGradient id="tealGlow" cx="80%" cy="20%" r="40%">
+      <stop offset="0%"   stop-color="#2BBFB0" stop-opacity="0.18"/>
+      <stop offset="100%" stop-color="#0C0A08" stop-opacity="0"/>
+    </radialGradient>
+
+    <!-- Orange accent glow -->
+    <radialGradient id="orangeGlow" cx="15%" cy="80%" r="35%">
+      <stop offset="0%"   stop-color="#D4903A" stop-opacity="0.15"/>
+      <stop offset="100%" stop-color="#0C0A08" stop-opacity="0"/>
+    </radialGradient>
+
+    <!-- Background fill gradient -->
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%"   stop-color="#0C0A08"/>
+      <stop offset="40%"  stop-color="#130C07"/>
+      <stop offset="100%" stop-color="#0A0808"/>
+    </linearGradient>
+
+    <!-- Grid pattern -->
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#B84021" stroke-width="0.3" opacity="0.25"/>
+    </pattern>
+
+    <!-- Hex pattern -->
+    <pattern id="hexPat" width="60" height="52" patternUnits="userSpaceOnUse">
+      <polygon points="30,2 58,17 58,47 30,62 2,47 2,17" fill="none" stroke="#D4903A" stroke-width="0.4" opacity="0.12"/>
+    </pattern>
+
+    <!-- Scanline filter -->
+    <filter id="blur1">
+      <feGaussianBlur stdDeviation="1.5"/>
+    </filter>
+    <filter id="blur2">
+      <feGaussianBlur stdDeviation="3"/>
+    </filter>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="4" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <filter id="softGlow">
+      <feGaussianBlur stdDeviation="8" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <clipPath id="clip"><rect width="900" height="300"/></clipPath>
+  </defs>
+
+  <g clip-path="url(#clip)">
+    <!-- Base background -->
+    <rect width="900" height="300" fill="url(#bgGrad)"/>
+
+    <!-- Grid layers -->
+    <rect width="900" height="300" fill="url(#grid)"/>
+    <rect width="900" height="300" fill="url(#hexPat)"/>
+
+    <!-- Ambient glows -->
+    <rect width="900" height="300" fill="url(#centerGlow)"/>
+    <rect width="900" height="300" fill="url(#tealGlow)"/>
+    <rect width="900" height="300" fill="url(#orangeGlow)"/>
+
+    <!-- ── LARGE ROTATING RINGS ── -->
+    <g transform="translate(450,150)">
+      <g style="transform-origin:0 0; animation:rotate-slow 22s linear infinite;">
+        <ellipse cx="0" cy="0" rx="200" ry="85" fill="none" stroke="#B84021" stroke-width="0.6" stroke-dasharray="8 16" opacity="0.3"/>
+      </g>
+      <g style="transform-origin:0 0; animation:rotate-rev 30s linear infinite;">
+        <ellipse cx="0" cy="0" rx="260" ry="110" fill="none" stroke="#D4903A" stroke-width="0.4" stroke-dasharray="4 20" opacity="0.2"/>
+      </g>
+      <g style="transform-origin:0 0; animation:rotate-slow 18s linear infinite 4s;">
+        <ellipse cx="0" cy="0" rx="310" ry="55" fill="none" stroke="#2BBFB0" stroke-width="0.35" stroke-dasharray="2 22" opacity="0.18"/>
+      </g>
+    </g>
+
+    <!-- ── CORNER ACCENT GEOMETRY ── -->
+    <!-- Top-left hex -->
+    <g transform="translate(60,60)" style="transform-origin:60px 60px; animation:hexSpin 20s linear infinite;">
+      <polygon points="0,-38 33,-19 33,19 0,38 -33,19 -33,-19" fill="none" stroke="#B84021" stroke-width="1" opacity="0.35"/>
+      <polygon points="0,-24 21,-12 21,12 0,24 -21,12 -21,-12" fill="none" stroke="#D4903A" stroke-width="0.6" opacity="0.25"/>
+    </g>
+    <!-- Top-right hex -->
+    <g transform="translate(840,60)" style="transform-origin:840px 60px; animation:rotate-rev 25s linear infinite;">
+      <polygon points="0,-30 26,-15 26,15 0,30 -26,15 -26,-15" fill="none" stroke="#2BBFB0" stroke-width="0.8" opacity="0.3"/>
+    </g>
+    <!-- Bottom-right hex -->
+    <g transform="translate(850,240)" style="transform-origin:850px 240px; animation:hexSpin 28s linear infinite 3s;">
+      <polygon points="0,-28 24,-14 24,14 0,28 -24,14 -24,-14" fill="none" stroke="#D4903A" stroke-width="0.7" opacity="0.3"/>
+    </g>
+    <!-- Bottom-left hex -->
+    <g transform="translate(50,240)" style="transform-origin:50px 240px; animation:rotate-rev 16s linear infinite;">
+      <polygon points="0,-22 19,-11 19,11 0,22 -19,11 -19,-11" fill="none" stroke="#B84021" stroke-width="0.8" opacity="0.28"/>
+    </g>
+
+    <!-- ── DIAGONAL ACCENT LINES ── -->
+    <line x1="0" y1="0"   x2="180" y2="300" stroke="#B84021" stroke-width="0.5" opacity="0.15" style="animation:lineFlash 4s ease-in-out infinite;"/>
+    <line x1="900" y1="0" x2="720" y2="300" stroke="#2BBFB0" stroke-width="0.5" opacity="0.15" style="animation:lineFlash 5s ease-in-out infinite 1s;"/>
+    <line x1="0" y1="150" x2="900" y2="150" stroke="#D4903A" stroke-width="0.3" opacity="0.12" style="animation:lineFlash 6s ease-in-out infinite 2s;"/>
+
+    <!-- ── FLOATING PARTICLES (orbs) ── -->
+    <!-- Large blurred orbs -->
+    <g class="p1" style="transform-origin:120px 80px;">
+      <circle cx="120" cy="80" r="50" fill="#B84021" opacity="0.08" filter="url(#blur2)"/>
+    </g>
+    <g class="p2" style="transform-origin:780px 200px;">
+      <circle cx="780" cy="200" r="60" fill="#2BBFB0" opacity="0.07" filter="url(#blur2)"/>
+    </g>
+    <g class="p3" style="transform-origin:500px 50px;">
+      <circle cx="500" cy="50" r="40" fill="#D4903A" opacity="0.09" filter="url(#blur2)"/>
+    </g>
+
+    <!-- Medium sharp orbs -->
+    <g class="p4" style="transform-origin:200px 230px;">
+      <circle cx="200" cy="230" r="5" fill="#D4903A" opacity="0.7" filter="url(#blur1)"/>
+      <circle cx="200" cy="230" r="2" fill="#EDE3CF" opacity="0.9"/>
+    </g>
+    <g class="p5" style="transform-origin:700px 60px;">
+      <circle cx="700" cy="60" r="4" fill="#2BBFB0" opacity="0.75" filter="url(#blur1)"/>
+      <circle cx="700" cy="60" r="1.5" fill="#EDE3CF" opacity="0.95"/>
+    </g>
+    <g class="p6" style="transform-origin:820px 140px;">
+      <circle cx="820" cy="140" r="3.5" fill="#B84021" opacity="0.8" filter="url(#blur1)"/>
+      <circle cx="820" cy="140" r="1.5" fill="#EDE3CF" opacity="0.9"/>
+    </g>
+    <g class="p7" style="transform-origin:80px 180px;">
+      <circle cx="80" cy="180" r="3" fill="#2BBFB0" opacity="0.7" filter="url(#blur1)"/>
+      <circle cx="80" cy="180" r="1.2" fill="#EDE3CF" opacity="0.9"/>
+    </g>
+    <g class="p8" style="transform-origin:380px 260px;">
+      <circle cx="380" cy="260" r="4" fill="#D4903A" opacity="0.65" filter="url(#blur1)"/>
+      <circle cx="380" cy="260" r="1.5" fill="#EDE3CF" opacity="0.9"/>
+    </g>
+
+    <!-- Small particle dots scattered -->
+    <g style="animation:drift3 14s ease-in-out infinite 0.5s; transform-origin:580px 220px;">
+      <circle cx="580" cy="220" r="2" fill="#D4903A" opacity="0.6"/>
+    </g>
+    <g style="animation:drift1 9s ease-in-out infinite 4s; transform-origin:300px 40px;">
+      <circle cx="300" cy="40" r="1.5" fill="#2BBFB0" opacity="0.7"/>
+    </g>
+    <g style="animation:drift2 11s ease-in-out infinite 1.5s; transform-origin:660px 270px;">
+      <circle cx="660" cy="270" r="2.5" fill="#B84021" opacity="0.6"/>
+    </g>
+
+    <!-- ── PULSE RINGS (animated circles) ── -->
+    <g transform="translate(140,150)">
+      <circle cx="0" cy="0" r="4" fill="#B84021" opacity="0.9"/>
+      <circle cx="0" cy="0" fill="none" stroke="#B84021" stroke-width="1" opacity="0">
+        <animate attributeName="r" values="4;22" dur="2.5s" repeatCount="indefinite"/>
+        <animate attributeName="opacity" values="0.8;0" dur="2.5s" repeatCount="indefinite"/>
+      </circle>
+      <circle cx="0" cy="0" fill="none" stroke="#B84021" stroke-width="0.6" opacity="0">
+        <animate attributeName="r" values="4;32" dur="2.5s" begin="0.8s" repeatCount="indefinite"/>
+        <animate attributeName="opacity" values="0.5;0" dur="2.5s" begin="0.8s" repeatCount="indefinite"/>
+      </circle>
+    </g>
+    <g transform="translate(760,150)">
+      <circle cx="0" cy="0" r="3.5" fill="#2BBFB0" opacity="0.9"/>
+      <circle cx="0" cy="0" fill="none" stroke="#2BBFB0" stroke-width="1">
+        <animate attributeName="r" values="3.5;20" dur="3s" repeatCount="indefinite"/>
+        <animate attributeName="opacity" values="0.7;0" dur="3s" repeatCount="indefinite"/>
+      </circle>
+    </g>
+
+    <!-- ── SCANLINE (subtle sweep) ── -->
+    <rect x="0" y="0" width="900" height="2" fill="url(#tealGlow)" opacity="0.15">
+      <animate attributeName="y" values="-4;304" dur="5s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0;0.25;0" dur="5s" repeatCount="indefinite"/>
+    </rect>
+
+    <!-- ── MAIN TEXT CONTENT ── -->
+    <!-- Glow layer for name -->
+    <text x="450" y="118" text-anchor="middle" font-family="'Courier New', monospace" font-size="66" font-weight="900"
+          fill="#B84021" opacity="0.25" filter="url(#blur2)" class="title-text">FARHAT ABBAS</text>
+
+    <!-- Name -->
+    <text x="450" y="118" text-anchor="middle" font-family="'Courier New', monospace" font-size="66" font-weight="900"
+          fill="#EDE3CF" class="title-text" letter-spacing="4">FARHAT ABBAS</text>
+
+    <!-- Decorative separator -->
+    <g class="sub-text">
+      <line x1="270" y1="132" x2="390" y2="132" stroke="#B84021" stroke-width="1" opacity="0.7"/>
+      <circle cx="450" cy="132" r="3" fill="#D4903A"/>
+      <line x1="510" y1="132" x2="630" y2="132" stroke="#2BBFB0" stroke-width="1" opacity="0.7"/>
+    </g>
+
+    <!-- Subtitle -->
+    <text x="450" y="165" text-anchor="middle" font-family="'Courier New', monospace" font-size="16" font-weight="700"
+          fill="#D4903A" class="sub-text" letter-spacing="6">MECHANICAL ENGINEER</text>
+
+    <!-- Desc row -->
+    <text x="450" y="193" text-anchor="middle" font-family="'Courier New', monospace" font-size="12" font-weight="400"
+          fill="#2BBFB0" class="desc-text" letter-spacing="3">DEVELOPER  ·  TECHNICAL WRITER  ·  UET LAHORE</text>
+
+    <!-- Tag row -->
+    <g class="desc-text">
+      <!-- Badge 1 -->
+      <rect x="248" y="215" width="108" height="22" rx="4" fill="#B84021" opacity="0.18"/>
+      <rect x="248" y="215" width="108" height="22" rx="4" fill="none" stroke="#B84021" stroke-width="0.8" opacity="0.6"/>
+      <text x="302" y="230" text-anchor="middle" font-family="'Courier New', monospace" font-size="9" fill="#EDE3CF" letter-spacing="1">BATCH 2025</text>
+
+      <!-- Badge 2 -->
+      <rect x="371" y="215" width="108" height="22" rx="4" fill="#2BBFB0" opacity="0.12"/>
+      <rect x="371" y="215" width="108" height="22" rx="4" fill="none" stroke="#2BBFB0" stroke-width="0.8" opacity="0.5"/>
+      <text x="425" y="230" text-anchor="middle" font-family="'Courier New', monospace" font-size="9" fill="#EDE3CF" letter-spacing="1">2025-ME-33</text>
+
+      <!-- Badge 3 -->
+      <rect x="494" y="215" width="120" height="22" rx="4" fill="#D4903A" opacity="0.12"/>
+      <rect x="494" y="215" width="120" height="22" rx="4" fill="none" stroke="#D4903A" stroke-width="0.8" opacity="0.5"/>
+      <text x="554" y="230" text-anchor="middle" font-family="'Courier New', monospace" font-size="9" fill="#EDE3CF" letter-spacing="1">PRECIX ENG</text>
+    </g>
+
+    <!-- Bottom edge line -->
+    <line x1="0" y1="297" x2="900" y2="297" stroke="#B84021" stroke-width="0.8" opacity="0.4"/>
+    <line x1="0" y1="299" x2="900" y2="299" stroke="#D4903A" stroke-width="0.4" opacity="0.2"/>
+  </g>
+</svg>
