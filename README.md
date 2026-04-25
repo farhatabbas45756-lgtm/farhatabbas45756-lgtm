@@ -23,20 +23,40 @@
 
 ---
 
-## About Me
 
 <div align="center">
 
-| | |
-|:---|:---|
-| **University** | University of Engineering & Technology, Lahore |
-| **Department** | Mechanical Engineering — Section A |
-| **Position** | Class Super Admin — ME Section A Portal |
-| **Society** | Science Society @ UET Lahore · Team Documentation |
+<img src="https://capsule-render.vercel.app/api?type=rect&color=042C53,0C447C,185FA5,0C447C,042C53&height=3&section=header" width="100%"/>
+
+<table>
+<tr>
+<td align="center" width="33%">
+
+**🏛️ University**<br/>
+University of Engineering<br/>&amp; Technology, Lahore
+
+</td>
+<td align="center" width="33%">
+
+**⚙️ Department**<br/>
+Mechanical Engineering<br/>
+· Batch 2025
+
+</td>
+<td align="center" width="33%">
+
+**🔬 Society**<br/>
+Science Society @ UET Lahore<br/>
+Team Documentation
+
+</td>
+</tr>
+</table>
+
+<img src="https://capsule-render.vercel.app/api?type=rect&color=042C53,0C447C,185FA5,0C447C,042C53&height=3&section=footer" width="100%"/>
 
 </div>
 
----
 
 ## 🛠️ Tech Stack & Tools
 
@@ -59,20 +79,57 @@
 
 ## 🚀 Featured Projects
 
+## 🚀 Featured Projects
+
 <div align="center">
 
-| Project | Description | Tech Stack |
-|---|---|---|
-| 🏛️ **ME Section A Portal** | Full-featured role-based student portal for ~48 students. Features Three.js 3D visuals, glassmorphism dark UI, problem submission & status tracking, and role tiers: Super Admin › CR › GR › PR › Student | `JavaScript` `Three.js` `Node.js` `HTML/CSS` |
-| ✋ **Gesture-Controlled Whiteboard** | Digital whiteboard controlled entirely by hand gestures — built as a "mega project" for teaching & presentations | `Python` `MediaPipe Hands` `Canvas API` |
-| 📄 **Engineering Doc Suite** | Professional technical documents: lab reports (EM-II), Minutes of Meeting (PRECIX Engineering), Materials & Manufacturing Lab layout — all production-grade DOCX | `Node.js` `docx` `XML` |
-| 📝 **TWP Exam Prep System** | Complete exam study kit with flowchart-formatted DOCX files covering technical communication — cover letters, CVs, memos, emails, writing principles | `JavaScript` `docx` `Node.js` |
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=13&pause=2200&color=C1440E&center=true&vCenter=true&width=660&lines=4+Projects+Shipped+%E2%80%A2+48+Portal+Users+%E2%80%A2+6%2B+Tech+Stacks+%E2%80%A2+100%25+Production-Grade" alt="Project stats"/>
 
 </div>
 
 <br/>
 
----
+<table>
+<tr>
+<td width="50%" valign="top">
+
+### 🏛️ ME Section A Portal
+![](https://img.shields.io/badge/status-live-1D9E75?style=flat-square&labelColor=04342C)
+
+Role-based student portal for ~48 students — Three.js 3D visuals, glassmorphism dark UI, problem submission & 5-tier role system: Super Admin › CR › GR › PR › Student.
+
+`JavaScript` `Three.js` `Node.js` `HTML/CSS`
+
+</td>
+<td width="50%" valign="top">
+
+### ✋ Gesture-Controlled Whiteboard
+![](https://img.shields.io/badge/status-complete-378ADD?style=flat-square&labelColor=042C53)
+
+Digital whiteboard driven entirely by hand gestures — built as a mega project for zero-touch teaching & presentation environments.
+
+`Python` `MediaPipe Hands` `Canvas API`
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+### 📄 Engineering Doc Suite
+![](https://img.shields.io/badge/status-delivered-1D9E75?style=flat-square&labelColor=04342C)
+
+Production-grade technical documents — EM-II lab reports, PRECIX Engineering MoM, Materials & Manufacturing Lab layout — all DOCX.
+
+`Node.js` `docx` `XML`
+
+</td>
+<td width="50%" valign="top">
+
+`
+
+</td>
+</tr>
+</table>
 
 ## 📊 GitHub Stats
 
@@ -144,7 +201,7 @@
 
 | 🔩 Technical Design | 💻 Software Builds | 📄 Professional Documentation |
 |:---:|:---:|:---:|
-| ![](https://geps.dev/progress/88?dangerColor=185FA5&warningColor=185FA5&successColor=185FA5) | ![](https://geps.dev/progress/80?dangerColor=1D9E75&warningColor=1D9E75&successColor=1D9E75) | ![](https://geps.dev/progress/92?dangerColor=534AB7&warningColor=534AB7&successColor=534AB7) |
+| ![](https://geps.dev/progress/88?dangerColor=D85A30&warningColor=D85A30&successColor=D85A30) | ![](https://geps.dev/progress/80?dangerColor=993C1D&warningColor=993C1D&successColor=993C1D) | ![](https://geps.dev/progress/94?dangerColor=712B13&warningColor=712B13&successColor=712B13) |
 
 </div>
 
@@ -153,7 +210,9 @@
 ## 🟢 Currently
 
 <div align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=800&color=1D9E75&center=true&vCenter=true&width=500&lines=%F0%9F%9F%A2+Building+engineering+tools;%F0%9F%9F%A2+Writing+technical+docs;%F0%9F%9F%A2+Always+learning+more" alt="Status" />
+
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=900&color=1D9E75&center=true&vCenter=true&width=520&lines=%F0%9F%9F%A2+Building+engineering+tools+for+real-world+use;%F0%9F%9F%A2+Writing+technical+documentation+professionally;%F0%9F%9F%A2+Always+learning+%E2%80%94+software%2C+systems+%26+design" alt="Currently"/>
+
 </div>
 
 ---
@@ -168,11 +227,4 @@
 &nbsp;
 [![UET Lahore](https://img.shields.io/badge/UET%20Lahore-Batch%202025-7FD8E8?style=for-the-badge&logo=academia&logoColor=black)](https://uet.edu.pk)
 
-</div>
-
-<br/>
-
-<!-- FOOTER BANNER -->
-<div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=C1440E,3B0E02,0D0D0D&height=130&section=footer&text=Built%20with%20precision.%20Engineered%20for%20purpose.&fontSize=16&fontColor=E8C99A&fontAlignY=55&animation=fadeIn" width="100%"/>
 </div>
