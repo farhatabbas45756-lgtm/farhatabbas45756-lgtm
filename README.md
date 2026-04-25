@@ -1,90 +1,118 @@
-<!-- HEADER BANNER -->
+<!-- ══════════════════════════════════════════════════════════════════════ -->
+<!--                    FARHAT ABBAS — GITHUB README                      -->
+<!--          All section banners are animated SVG files in /assets/      -->
+<!-- ══════════════════════════════════════════════════════════════════════ -->
+
+<!-- ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓  HERO  ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓ -->
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0D0D0D,3B0E02,C1440E&height=220&section=header&text=Farhat%20Abbas&fontSize=72&fontColor=E8C99A&fontAlignY=40&desc=Mechanical%20Engineer%20%E2%80%A2%20Developer%20%E2%80%A2%20Technical%20Writer&descSize=18&descAlignY=62&descColor=7FD8E8&animation=fadeIn" width="100%"/>
+  <img src="assets/hero.svg" width="100%" alt="Farhat Abbas — Mechanical Engineer · Developer · Technical Writer"/>
+</div>
+
+<!-- ▓▓▓  TYPING ANIMATION  ▓▓▓ -->
+<div align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=19&duration=2600&pause=800&color=D4903A&center=true&vCenter=true&width=700&lines=ME+Student+%40+UET+Lahore%2C+Batch+2025+%F0%9F%94%A7;Class+Super+Admin+%7C+ME+Section+A+Portal+%F0%9F%9A%80;Science+Society+%E2%80%94+Team+Documentation+%F0%9F%94%AC;Technical+Writer+%40+PRECIX+Engineering+%F0%9F%93%84;Anthropic+Claude+101+Certified+%F0%9F%A4%96;Building+Smart+Tools+for+Real+Engineers+%E2%9A%99%EF%B8%8F" alt="Typing SVG"/>
 </div>
 
 <br/>
 
-<!-- TYPING ANIMATION -->
+<!-- ▓▓▓  BADGES ROW  ▓▓▓ -->
 <div align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=20&duration=2800&pause=900&color=C1440E&center=true&vCenter=true&width=680&lines=ME+Student+%40+UET+Lahore+%F0%9F%94%A7;Portal+Developer+%7C+Full-Stack+Web+Builder+%F0%9F%9A%80;Science+Society+%7C+Team+Documentation+%F0%9F%94%AC;Technical+Writer+%7C+Professional+Doc+Producer+%F0%9F%93%84;Building+Smart+Tools+for+Real+Engineers+%E2%9A%99%EF%B8%8F" alt="Typing SVG" />
+  <img src="https://komarev.com/ghpvc/?username=farhatabbas45756-lgtm&style=for-the-badge&color=B84021&labelColor=0C0A08&label=PROFILE+VIEWS" alt="Profile Views"/>
+  &nbsp;
+  <img src="https://img.shields.io/badge/UET%20Lahore-Batch%202025-D4903A?style=for-the-badge&labelColor=0C0A08" alt="Batch"/>
+  &nbsp;
+  <img src="https://img.shields.io/badge/Roll-2025--ME--33-2BBFB0?style=for-the-badge&labelColor=0C0A08" alt="Roll"/>
+  &nbsp;
+  <img src="https://img.shields.io/github/followers/farhatabbas45756-lgtm?style=for-the-badge&color=8CA5B5&labelColor=0C0A08&label=FOLLOWERS" alt="Followers"/>
 </div>
 
 <br/>
 
-<!-- PROFILE VIEWS + FOLLOWERS BADGES -->
+---
+
+<!-- ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓  ABOUT  ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓ -->
 <div align="center">
-  <img src="https://komarev.com/ghpvc/?username=farhatabbas45756-lgtm&style=for-the-badge&color=C1440E&label=PROFILE+VIEWS" alt="Profile Views"/>
+  <img src="assets/about.svg" width="100%" alt="About — Farhat Abbas"/>
+</div>
+
+<br/>
+
+---
+
+<!-- ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓  3D ACTIVITY GRAPH  ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓ -->
+## 📈 Contribution Activity
+
+<div align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=farhatabbas45756-lgtm&bg_color=0C0A08&color=D4903A&line=B84021&point=2BBFB0&area=true&area_color=B84021&hide_border=false&border_color=D4903A&title_color=EDE3CF&radius=6" width="100%" alt="Activity Graph"/>
+</div>
+
+<br/>
+
+---
+
+<!-- ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓  TROPHIES  ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓ -->
+## 🏆 GitHub Trophies
+
+<div align="center">
+  <img src="https://github-profile-trophy.vercel.app/?username=farhatabbas45756-lgtm&theme=darkhub&no-frame=false&no-bg=false&margin-w=6&margin-h=6&column=7&rank=SECRET,SSS,SS,S,AAA,AA,A,B" alt="Trophies" width="100%"/>
+</div>
+
+<br/>
+
+---
+
+<!-- ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓  TECH STACK  ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓ -->
+<div align="center">
+  <img src="assets/tech.svg" width="100%" alt="Tech Stack & Tools"/>
+</div>
+
+<br/>
+
+<div align="center">
+
+### ⬡ Languages
+<img src="https://skillicons.dev/icons?i=python,js,html,css&theme=dark&perline=8"/>
+
+### ⬡ Frameworks & Libraries
+<img src="https://skillicons.dev/icons?i=nodejs,react,threejs&theme=dark&perline=8"/>
+
+### ⬡ Tools & Platforms
+<img src="https://skillicons.dev/icons?i=git,github,vscode,figma&theme=dark&perline=8"/>
+
+</div>
+
+<br/>
+
+---
+
+<!-- ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓  GITHUB STATS  ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓ -->
+## 📊 GitHub Stats
+
+<div align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=farhatabbas45756-lgtm&show_icons=true&theme=dark&bg_color=0C0A08&title_color=D4903A&text_color=8CA5B5&icon_color=2BBFB0&border_color=B84021&border_radius=6&hide_border=false&count_private=true" height="175" alt="GitHub Stats"/>
   &nbsp;&nbsp;
-  <img src="https://img.shields.io/github/followers/farhatabbas45756-lgtm?style=for-the-badge&color=00B4D8&labelColor=0D0D0D&label=FOLLOWERS" alt="Followers"/>
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=farhatabbas45756-lgtm&layout=compact&theme=dark&bg_color=0C0A08&title_color=D4903A&text_color=8CA5B5&border_color=B84021&border_radius=6&hide_border=false&langs_count=8" height="175" alt="Top Languages"/>
+</div>
+
+<br/>
+
+<div align="center">
+  <img src="https://streak-stats.demolab.com?user=farhatabbas45756-lgtm&theme=dark&background=0C0A08&ring=B84021&fire=D4903A&currStreakLabel=2BBFB0&sideLabels=8CA5B5&currStreakNum=D4903A&sideNums=B84021&dates=5C6E7A&border=B84021&border_radius=6" alt="GitHub Streak" width="60%"/>
 </div>
 
 <br/>
 
 ---
 
-
+<!-- ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓  PROJECTS  ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓ -->
 <div align="center">
-
-<img src="https://capsule-render.vercel.app/api?type=rect&color=042C53,0C447C,185FA5,0C447C,042C53&height=3&section=header" width="100%"/>
-
-<table>
-<tr>
-<td align="center" width="33%">
-
-**🏛️ University**<br/>
-University of Engineering<br/>&amp; Technology, Lahore
-
-</td>
-<td align="center" width="33%">
-
-**⚙️ Department**<br/>
-Mechanical Engineering<br/>
-· Batch 2025
-
-</td>
-<td align="center" width="33%">
-
-**🔬 Society**<br/>
-Science Society @ UET Lahore<br/>
-Team Documentation
-
-</td>
-</tr>
-</table>
-
-<img src="https://capsule-render.vercel.app/api?type=rect&color=042C53,0C447C,185FA5,0C447C,042C53&height=3&section=footer" width="100%"/>
-
-</div>
-
-
-## 🛠️ Tech Stack & Tools
-
-<div align="center">
-
-### Languages
-<img src="https://skillicons.dev/icons?i=python,js,html,css&theme=dark" />
-
-### Frameworks & Libraries
-<img src="https://skillicons.dev/icons?i=nodejs,react,threejs&theme=dark" />
-
-### Tools & Platforms
-<img src="https://skillicons.dev/icons?i=git,github,vscode,figma&theme=dark" />
-
+  <img src="assets/projects.svg" width="100%" alt="Featured Projects"/>
 </div>
 
 <br/>
 
----
-
-## 🚀 Featured Projects
-
-## 🚀 Featured Projects
-
 <div align="center">
-
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=13&pause=2200&color=C1440E&center=true&vCenter=true&width=660&lines=4+Projects+Shipped+%E2%80%A2+48+Portal+Users+%E2%80%A2+6%2B+Tech+Stacks+%E2%80%A2+100%25+Production-Grade" alt="Project stats"/>
-
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=13&pause=2400&color=B84021&center=true&vCenter=true&width=700&lines=4+Projects+Shipped+%E2%80%A2+48+Portal+Users+%E2%80%A2+6%2B+Tech+Stacks+%E2%80%A2+100%25+Production-Grade" alt="Project stats"/>
 </div>
 
 <br/>
@@ -94,21 +122,27 @@ Team Documentation
 <td width="50%" valign="top">
 
 ### 🏛️ ME Section A Portal
-![](https://img.shields.io/badge/status-live-1D9E75?style=flat-square&labelColor=04342C)
+![](https://img.shields.io/badge/STATUS-LIVE-1D9E75?style=flat-square&labelColor=04342C)
+![](https://img.shields.io/badge/USERS-48-D4903A?style=flat-square&labelColor=0C0A08)
 
-Role-based student portal for ~48 students — Three.js 3D visuals, glassmorphism dark UI, problem submission & 5-tier role system: Super Admin › CR › GR › PR › Student.
+Role-based student portal for ~48 students — Three.js 3D visuals, glassmorphism dark UI, real-time problem submission, and a 5-tier role hierarchy:
 
-`JavaScript` `Three.js` `Node.js` `HTML/CSS`
+```
+Super Admin › CR › GR › PR › Student
+```
+
+**Stack:** `JavaScript` · `Three.js` · `Node.js` · `HTML/CSS`
 
 </td>
 <td width="50%" valign="top">
 
 ### ✋ Gesture-Controlled Whiteboard
-![](https://img.shields.io/badge/status-complete-378ADD?style=flat-square&labelColor=042C53)
+![](https://img.shields.io/badge/STATUS-COMPLETE-378ADD?style=flat-square&labelColor=042C53)
+![](https://img.shields.io/badge/TYPE-MEGA%20PROJECT-B84021?style=flat-square&labelColor=0C0A08)
 
-Digital whiteboard driven entirely by hand gestures — built as a mega project for zero-touch teaching & presentation environments.
+Digital whiteboard driven entirely by hand gestures — zero-touch teaching and presentation environments. Full Canvas API rendering pipeline via MediaPipe Hands.
 
-`Python` `MediaPipe Hands` `Canvas API`
+**Stack:** `Python` · `MediaPipe Hands` · `Canvas API`
 
 </td>
 </tr>
@@ -116,48 +150,54 @@ Digital whiteboard driven entirely by hand gestures — built as a mega project 
 <td width="50%" valign="top">
 
 ### 📄 Engineering Doc Suite
-![](https://img.shields.io/badge/status-delivered-1D9E75?style=flat-square&labelColor=04342C)
+![](https://img.shields.io/badge/STATUS-DELIVERED-1D9E75?style=flat-square&labelColor=04342C)
+![](https://img.shields.io/badge/CLIENT-PRECIX%20ENG-2BBFB0?style=flat-square&labelColor=071622)
 
-Production-grade technical documents — EM-II lab reports, PRECIX Engineering MoM, Materials & Manufacturing Lab layout — all DOCX.
+Production-grade technical documents:
+- EM-II Lab Reports (Flat Belt & V-Belt Friction)
+- PRECIX Engineering MoM · Ref: `PEC/BOD/2026/Q2-01`
+- Materials & Manufacturing Lab — colour-coded floor plan
 
-`Node.js` `docx` `XML`
+**Stack:** `Node.js` · `docx` · `XML`
 
 </td>
 <td width="50%" valign="top">
 
-`
+### 🤖 Claude 101 Certificate — Enhanced
+![](https://img.shields.io/badge/STATUS-COMPLETE-378ADD?style=flat-square&labelColor=042C53)
+![](https://img.shields.io/badge/ISSUER-ANTHROPIC-D4903A?style=flat-square&labelColor=0C0A08)
+
+Completed Anthropic's official **Claude 101** AI fundamentals course. Took the plain completion certificate and redesigned it into a **luxury-styled HTML/CSS/SVG document** — professional typography, ornate signature blocks, and full visual refinement.
+
+**Stack:** `HTML` · `CSS` · `SVG`
 
 </td>
 </tr>
 </table>
 
-## 📊 GitHub Stats
-
-<div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=farhatabbas45756-lgtm&show_icons=true&theme=dark&bg_color=0D0D0D&title_color=C1440E&text_color=7FD8E8&icon_color=E8C99A&border_color=C1440E&border_radius=10&hide_border=false" height="180" alt="GitHub Stats"/>
-  &nbsp;
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=farhatabbas45756-lgtm&layout=compact&theme=dark&bg_color=0D0D0D&title_color=C1440E&text_color=7FD8E8&border_color=C1440E&border_radius=10" height="180" alt="Top Languages"/>
-</div>
-
 <br/>
 
+---
+
+<!-- ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓  CERTIFICATION  ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓ -->
 <div align="center">
-  <img src="https://streak-stats.demolab.com?user=farhatabbas45756-lgtm&theme=dark&background=0D0D0D&ring=C1440E&fire=E8C99A&currStreakLabel=7FD8E8&sideLabels=7FD8E8&currStreakNum=E8C99A&sideNums=C1440E&dates=888888&border=C1440E&border_radius=10" alt="GitHub Streak" />
+  <img src="assets/cert.svg" width="100%" alt="Certification — Anthropic Claude 101"/>
 </div>
 
 <br/>
 
 ---
 
+<!-- ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓  ROLES  ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓ -->
 ## 🏅 Roles & Affiliations
 
 <div align="center">
 
-| Role | Organization | Details |
-|---|---|---|
-| 🔑 **Class Super Admin** | ME Section A — UET Lahore | Manages the student portal and class operations for Batch 2025 |
-| 📋 **Team Documentation** | Science Society — UET Lahore | Handles documentation, reports, and written communications for the society |
-| 🏗️ **Technical Writer** | PRECIX Engineering | Produced formal professional engineering documents and meeting records |
+| | Role | Organization | Scope |
+|:---:|:---|:---|:---|
+| 🔑 | **Class Super Admin** | ME Section A — UET Lahore | Portal management & class operations for Batch 2025 (~48 students) |
+| 🔬 | **Team Documentation** | Science Society — UET Lahore | Handles reports, documentation & written communications for the society |
+| 🏗️ | **Technical Writer** | PRECIX Engineering | Formal engineering documents, MoM (ISO 9001:2015), professional records |
 
 </div>
 
@@ -165,18 +205,22 @@ Production-grade technical documents — EM-II lab reports, PRECIX Engineering M
 
 ---
 
+<!-- ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓  WHAT I WORK ON  ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓ -->
 ## 📚 What I Work On
 
 <div align="center">
 
 ```
-╔══════════════════════════════════════════════════════════════╗
-║  🔩  Mechanical Systems    ➜  EM-II · Materials · Mfg Lab   ║
-║  💻  Web Development       ➜  Portals · Tools · Apps        ║
-║  📄  Technical Writing     ➜  Reports · Memos · Proposals   ║
-║  🎨  UI / Visual Design    ➜  Glassmorphism · 3D Interfaces ║
-║  🤖  Automation Scripts    ➜  Python · JS · Node.js         ║
-╚══════════════════════════════════════════════════════════════╝
+╔══════════════════════════════════════════════════════════════════════╗
+║                                                                      ║
+║   🔩  Mechanical Systems    ──›  EM-II · Materials · Mfg Lab        ║
+║   💻  Web Development       ──›  Portals · Tools · Full-Stack Apps  ║
+║   📄  Technical Writing     ──›  Reports · Memos · MoM · Proposals  ║
+║   🎨  UI / Visual Design    ──›  Glassmorphism · 3D Interfaces      ║
+║   🤖  AI & Automation       ──›  Prompt Engineering · Claude AI     ║
+║   ⚙️  Scripting              ──›  Python · JavaScript · Node.js     ║
+║                                                                      ║
+╚══════════════════════════════════════════════════════════════════════╝
 ```
 
 </div>
@@ -185,46 +229,70 @@ Production-grade technical documents — EM-II lab reports, PRECIX Engineering M
 
 ---
 
-## 💬 Languages
-
-<div align="center">
-
-`English` · `Urdu` · `Punjabi` · `Saraiki` · `Arabic (readable)` · `Persian (readable)`
-
-</div>
-
----
-
+<!-- ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓  INTERESTS  ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓ -->
 ## 📈 Interests
 
 <div align="center">
 
-| 🔩 Technical Design | 💻 Software Builds | 📄 Professional Documentation |
-|:---:|:---:|:---:|
-| ![](https://geps.dev/progress/88?dangerColor=D85A30&warningColor=D85A30&successColor=D85A30) | ![](https://geps.dev/progress/80?dangerColor=993C1D&warningColor=993C1D&successColor=993C1D) | ![](https://geps.dev/progress/94?dangerColor=712B13&warningColor=712B13&successColor=712B13) |
+| 🔩 Technical Design | 💻 Software Builds | 📄 Professional Documentation | 🤖 AI & Prompt Engineering |
+|:---:|:---:|:---:|:---:|
+| ![](https://geps.dev/progress/88?dangerColor=B84021&warningColor=B84021&successColor=B84021) | ![](https://geps.dev/progress/80?dangerColor=D4903A&warningColor=D4903A&successColor=D4903A) | ![](https://geps.dev/progress/94?dangerColor=2BBFB0&warningColor=2BBFB0&successColor=2BBFB0) | ![](https://geps.dev/progress/76?dangerColor=8CA5B5&warningColor=8CA5B5&successColor=8CA5B5) |
 
 </div>
 
+<br/>
+
 ---
 
-## 🟢 Currently
+<!-- ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓  LANGUAGES  ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓ -->
+## 💬 Languages
 
 <div align="center">
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=900&color=1D9E75&center=true&vCenter=true&width=520&lines=%F0%9F%9F%A2+Building+engineering+tools+for+real-world+use;%F0%9F%9F%A2+Writing+technical+documentation+professionally;%F0%9F%9F%A2+Always+learning+%E2%80%94+software%2C+systems+%26+design" alt="Currently"/>
+![](https://img.shields.io/badge/English-Native-D4903A?style=for-the-badge&labelColor=0C0A08)
+![](https://img.shields.io/badge/Urdu-Native-D4903A?style=for-the-badge&labelColor=0C0A08)
+![](https://img.shields.io/badge/Punjabi-Native-D4903A?style=for-the-badge&labelColor=0C0A08)
+![](https://img.shields.io/badge/Saraiki-Native-D4903A?style=for-the-badge&labelColor=0C0A08)
+![](https://img.shields.io/badge/Arabic-Readable-5C6E7A?style=for-the-badge&labelColor=0C0A08)
+![](https://img.shields.io/badge/Persian-Readable-5C6E7A?style=for-the-badge&labelColor=0C0A08)
 
 </div>
 
+<br/>
+
 ---
 
-## 🌐 Connect With Me
+<!-- ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓  CURRENTLY  ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓ -->
+## 🟢 Currently
+
+<div align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=15&pause=800&color=1D9E75&center=true&vCenter=true&width=600&lines=%F0%9F%9F%A2+Building+engineering+tools+for+real-world+use;%F0%9F%9F%A2+Writing+professional+technical+documentation;%F0%9F%9F%A2+Deepening+AI+%26+prompt+engineering+skills;%F0%9F%9F%A2+Always+learning+%E2%80%94+software%2C+systems+%26+design" alt="Currently"/>
+</div>
+
+<br/>
+
+---
+
+<!-- ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓  CONNECT  ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓ -->
+<div align="center">
+  <img src="assets/connect.svg" width="100%" alt="Connect with Farhat Abbas"/>
+</div>
+
+<br/>
 
 <div align="center">
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Farhat%20Abbas-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/YOUR_LINKEDIN)
 &nbsp;
-[![Email](https://img.shields.io/badge/Email-Contact%20Me-C1440E?style=for-the-badge&logo=gmail&logoColor=white)](mailto:YOUR_EMAIL)
+[![Email](https://img.shields.io/badge/Email-Contact%20Me-B84021?style=for-the-badge&logo=gmail&logoColor=white)](mailto:YOUR_EMAIL)
 &nbsp;
-[![UET Lahore](https://img.shields.io/badge/UET%20Lahore-Batch%202025-7FD8E8?style=for-the-badge&logo=academia&logoColor=black)](https://uet.edu.pk)
+[![UET Lahore](https://img.shields.io/badge/UET%20Lahore-Batch%202025-2BBFB0?style=for-the-badge&logo=academia&logoColor=black)](https://uet.edu.pk)
 
+</div>
+
+<br/>
+
+<!-- ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓  FOOTER  ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓ -->
+<div align="center">
+  <img src="https://capsule-render.vercel.app/api?type=venom&color=0C0A08,1A0A05,B84021,D4903A,2BBFB0&height=160&section=footer&text=Built%20with%20precision.%20Designed%20with%20intent.&fontSize=22&fontColor=8CA5B5&fontAlignY=55&reversal=false&animation=fadeIn" width="100%"/>
 </div>
