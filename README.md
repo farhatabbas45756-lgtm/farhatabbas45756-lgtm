@@ -50,12 +50,25 @@
 
 ---
 
-<!-- ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓  TROPHIES  ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓ -->
+<!-- ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓  TROPHIES  ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓ --> 
 ## 🏆 GitHub Trophies
 
+
 <div align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=farhatabbas45756-lgtm&theme=darkhub&no-frame=false&no-bg=false&margin-w=6&margin-h=6&column=7&rank=SECRET,SSS,SS,S,AAA,AA,A,B" alt="Trophies" width="100%"/>
+  
+  <!-- Animated trophy line using Shields.io badges -->
+  <img src="https://img.shields.io/badge/🏆_SSS_RANK-GOLD-ffd700?style=for-the-badge&logo=crown&logoColor=black&labelColor=1e1e2f&color=ffd700&cacheSeconds=0" />
+  <img src="https://img.shields.io/badge/🏆_SS_RANK-SILVER-c0c0c0?style=for-the-badge&logo=medal&logoColor=black&labelColor=1e1e2f&color=c0c0c0" />
+  <img src="https://img.shields.io/badge/🏆_S_RANK-BRONZE-cd7f32?style=for-the-badge&logo=trophy&logoColor=black&labelColor=1e1e2f&color=cd7f32" />
+  <img src="https://img.shields.io/badge/🏆_AAA-blue?style=for-the-badge&logo=star&logoColor=white&labelColor=1e1e2f&color=blue" />
+  <img src="https://img.shields.io/badge/🏆_AA-lightblue?style=for-the-badge&logo=star&logoColor=white&labelColor=1e1e2f&color=lightblue" />
+  <img src="https://img.shields.io/badge/🏆_A-teal?style=for-the-badge&logo=star&logoColor=white&labelColor=1e1e2f&color=teal" />
+  <img src="https://img.shields.io/badge/🏆_B-gray?style=for-the-badge&logo=target&logoColor=white&labelColor=1e1e2f&color=gray" />
+
+  <!-- Animated typing effect -->
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=F7B801&center=true&vCenter=true&width=435&lines=GitHub+Trophy+Champion;Open+Source+Contributor;Code+Craftsman" alt="Typing SVG" />
 </div>
+
 
 <br/>
 
@@ -210,18 +223,19 @@ Completed Anthropic's official **Claude 101** AI fundamentals course. Took the p
 
 <div align="center">
 
-```
-╔══════════════════════════════════════════════════════════════════════╗
-║                                                                      ║
-║   🔩  Mechanical Systems    ──›  EM-II · Materials · Mfg Lab        ║
-║   💻  Web Development       ──›  Portals · Tools · Full-Stack Apps  ║
-║   📄  Technical Writing     ──›  Reports · Memos · MoM · Proposals  ║
-║   🎨  UI / Visual Design    ──›  Glassmorphism · 3D Interfaces      ║
-║   🤖  AI & Automation       ──›  Prompt Engineering · Claude AI     ║
-║   ⚙️  Scripting              ──›  Python · JavaScript · Node.js     ║
-║                                                                      ║
-╚══════════════════════════════════════════════════════════════════════╝
-```
+### ⚡ Core Competencies
+
+| Category | Technologies |
+|----------|--------------|
+| 🔩 **Mechanical Systems** | `EM-II` `Materials` `Manufacturing Lab` |
+| 💻 **Web Development** | `Portals` `Dev Tools` `Full-Stack Apps` |
+| 📄 **Technical Writing** | `Reports` `Memos` `Minutes of Meeting` `Proposals` |
+| 🎨 **UI/Visual Design** | `Glassmorphism` `3D Interfaces` `Modern UI` |
+| 🤖 **AI & Automation** | `Prompt Engineering` `Claude AI` `LLM Integration` |
+| ⚙️ **Scripting** | `Python` `JavaScript` `Node.js` |
+
+<!-- Animated separator -->
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=16&duration=2000&pause=500&color=F7B801&center=true&vCenter=true&width=500&lines=Mechanical+%7C+Web+%7C+Technical+Writing;UI%2FUX+%7C+AI%2FML+%7C+Automation;Always+Learning+%26+Building" alt="Skills Animation" />
 
 </div>
 
